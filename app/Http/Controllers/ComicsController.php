@@ -7,11 +7,11 @@ use App\Comic;
 
 class ComicsController extends Controller
 {
-    public function comics() {
+    public function index() {
         
         $comics = Comic::all();
-        $data = ['comics' => $comics];
+       
 
-        return view('comics', $data);
+        return view('home', compact('comics'));
     }
 }
