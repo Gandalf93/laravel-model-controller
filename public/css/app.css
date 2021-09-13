@@ -12,23 +12,19 @@ header .container {
   margin: auto;
   padding: 15px 0;
 }
-
 header .container img {
   height: 50px;
   margin-right: 20px;
 }
-
 header .container ul {
   display: flex;
   list-style: none;
 }
-
 header .container ul li {
   margin: 0 10px;
   font-size: 15px;
   text-transform: uppercase;
 }
-
 header .container ul li a {
   text-decoration: none;
   color: black;
@@ -37,7 +33,6 @@ header .container ul li a {
 main {
   background-color: #302727;
 }
-
 main .card-container {
   display: flex;
   flex-direction: row;
@@ -47,12 +42,10 @@ main .card-container {
   margin: auto;
   padding: 20px 0;
 }
-
 main .card-container .card {
   width: 15%;
   color: white;
 }
-
 main .card-container .card img {
   width: 100%;
 }
@@ -63,30 +56,24 @@ footer .foot-alto {
   margin: auto;
   justify-content: space-around;
 }
-
 footer .foot-alto div {
   display: flex;
 }
-
 footer .foot-alto div ul {
   margin: 20px;
 }
-
 footer .foot-alto div ul h3 {
   margin: 20px 0;
   text-transform: uppercase;
 }
-
 footer .foot-alto div ul li {
   list-style: none;
   text-transform: capitalize;
   margin: 10px 0;
 }
-
 footer .foot-alto img {
   width: 40%;
 }
-
 footer .foot-basso {
   background-color: black;
   height: 100px;
@@ -97,30 +84,24 @@ footer .foot-basso {
   align-items: center;
   text-transform: uppercase;
 }
-
 footer .foot-basso a {
   margin: 0 10px;
   text-decoration: none;
 }
-
 footer .link-foot-basso {
   display: flex;
   align-items: center;
 }
-
 footer .link-foot-basso :first-child {
   color: #0044ff;
   font-size: 20px;
 }
-
 footer .link-foot-basso a {
   margin: 0 10px;
   text-decoration: none;
 }
-
 footer .btn {
   padding: 10px;
   border: 1px solid blue;
   color: white;
 }
-

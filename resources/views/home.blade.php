@@ -6,10 +6,10 @@
 
 <main>
     <div class="card-container">   
-        @foreach($cardsData as $cardData)
+        @foreach($comics as $comic)
         <div class="card">
-            <img src="{{$cardData['thumb']}}" :alt="{{$cardData['series']}}">
-            <div> {{$cardData['series']}} </div>
+            <img src="{{$comic['thumb']}}" :alt="{{$comic['series']}}">
+            <div> {{$comic['series']}} </div>
           </div>
         @endforeach
     </div>
